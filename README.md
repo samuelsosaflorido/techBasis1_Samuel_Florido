@@ -18,3 +18,7 @@ In general, in order to get inspiration for my personal projects I go outside an
 I love to spend most of the time alone as it helps me organize my ideas and relax while listening to music. In the meantime, I take notes so I can structure my entire thinking process. 
 I want also to take my personal creative project to the digital/visual aspect, including Animation 3D, Concep Art, Character Design and all forms of ways to illustrate both the world and its inhabitants. 
 I want to make this world believable and that engages with people :)
+
+##### H5 
+I hope with the Digital Media programme I can acquire new tools and methods in order to make this entire personal project feasible in the forthcoming years. 
+During this assignments I will like to explore this creative aspect of myself and to see whether this applies to specific areas related with narrative, game design, animation and so on =)
