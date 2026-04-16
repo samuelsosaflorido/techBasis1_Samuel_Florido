@@ -1,6 +1,8 @@
 # techBasis1_Samuel_Florido
 # H1 Introduction to my repo
 Hi hi this is me :) I am going to write some meaningful content here about me :D
+
+
 / \                           / \
 |  |                         /  /
 |  |________________________/  / 
@@ -8,6 +10,7 @@ Hi hi this is me :) I am going to write some meaningful content here about me :D
 |  |        |  |        |  |
 |  |        |  |        |  |
 |__|        |__|        |__|
+
 
 ## H2 
 In this section I will describe a little bit of the main inspirations and my main interests. 
