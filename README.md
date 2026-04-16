@@ -2,16 +2,6 @@
 # H1 Introduction to my repo
 Hi hi this is me :) I am going to write some meaningful content here about me :D
 
-
-/ \                           / \
-|  |                         /  /
-|  |________________________/  / 
-|  |_________________________/         
-|  |        |  |        |  |
-|  |        |  |        |  |
-|__|        |__|        |__|
-
-
 ## H2 
 In this section I will describe a little bit of the main inspirations and my main interests. 
 I have always had a great interes in all forms of storytelling :)
