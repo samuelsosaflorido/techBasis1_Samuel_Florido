@@ -20,18 +20,11 @@ I used to have a blog where I used to post some of my fanfics based on videogame
 
 
 
-#### H4
-I love to spend most of the time alone as it helps me organize my ideas and relax while listening to music. In the meantime, I take notes so I can structure my entire thinking process. 
-I want also to take my personal creative project to the digital/visual aspect, including Animation 3D, Concep Art, Character Design and all forms of ways to illustrate both the world and its inhabitants. 
-I want to make this world believable and that engages with people :). I hope with the Digital Media programme I can acquire new tools and methods in order to make this entire personal project feasible in the forthcoming years. During this assignments I will like to explore this creative aspect of myself and to see whether this applies to specific areas related with narrative, game design, animation and so on =)
-
-#### H5
+#### H4 
 Reflection on the assignment 1. Small piece of ASCII art
-It took me a couple of attempts for the creation of this entire image. 
-First of all, I wanted to create a simple creature dancing so I looked on Google images to get some references. Afterwards, I watched a couple of videos in order to learn how to properly print the different designs. Later on, I was not extremely convinced with the main ideas, so I changed the topic. After this inner dialogue, I wanted to create a muscular cat like we can see in different memes. 
-After having so much problems trying to print this, with a lot of errors and structural problems I decided to change. Throughout this reflective process, I thought on my very own interests and asked myself: Why not a castle?
-This castle came out during the eentire process. I tried so many different ways of doing it. Until I had a clear image of what I wanted to do
-It didn't have to be extremely complex so I started thinking on the main structure
-This castle resembles my own personal world, this I why I added a flag on it in order to exemplify that aspect
-After trying it oveer and over, I decided to add a small human being that exemplifies the idea of the knight protecting the fortress against its enemies
-The entire process was fun and I think I managed to do it so =) 
+It took me a couple of attempts for the creation of this entire image. The process itself was interesting and I used a couple of video references but mostly Google images. I also tested the image out in the readme section so I could see how gto properly do it. In the very first beginning I had no structure and no clear approach on what I wanted to do. I thought of making some random fantasy inspired creature
+Later on I figured out that it was too complex to begin with so I started looking for random ASCII memes in order to get a clear inspiration. I tried to emulate the muscular cat meme but the results weren't satisfactory and I almost found myself into an important loop of trying it over and over without any specific result. 
+After a long while testing out other examples I came out with an interesting idea that resonates with has been explained beforehand in this section. I decided to recreate some simple castle that resembles my inner personal world with a funny flag reinforcing that idea. 
+I had problems in the very first beginning and received a lot of Syntax Errors but in the end I dedicated an important amount of time fixing the inner details, like adding double "/ /" in a correct positioning resembling the walls of the two towers. (Maybe I took the Tolkien's reference so literal?) 
+After a long while crafting the structure and the correspondant flag, it seemed to me that something was kind of off. After this reflective process, I decided to add some knight symbolizing this ideal social arthurian construction in which the knights have to serve the kingdom and the realm. A sworn oath, similar to what we have seen in other medieval stories (not with this brutally critical approach as George RR Martin did in A Song of Ice and Fire with the characters of Jaime Lannister or Sandor Clegane) 
+Afterwards, I tested again the code in PyCharm and eventually it worked out perfectly well. Overall, the whole experience of crafting your own piece of art using Python was extremely insightful and also enriching. Trying to find the right materials or thinking on references that may seem feasible for this small project was also interestingly hard but enjoyable at the same time. I had so much fun creatng this and looking forward to learn more on how to do artwork using programming languages :)
