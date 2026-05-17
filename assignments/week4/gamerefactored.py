@@ -1,5 +1,5 @@
 # Dungeon Exploration. A text adventure game inspired in classic RPG format
-# Objective: the player needs to make decisions through different routes in order to find and gain a treasure
+# The main objective of this game is that the player needs to make decisions through different routes in order to find and gain a treasure. Will the player survive? Will the player be worthy enough? 
 
 import time
 
@@ -25,7 +25,7 @@ def introduction():
 
 
 def check_strength(strength):
-    # Takes strength as argument and returns the result message
+    # Strenght is being added as an argument and takes the result from the different choices 
     if strength == "5":
         return "You demolished the orc! " + WINNING_MESSAGE
     elif strength == "4":
@@ -37,7 +37,7 @@ def check_strength(strength):
 
 
 def orc_battle():
-    # Left path - battle against an orc
+    # In the left path the player encounters a wild orc
     print("During your adventure in this silent cave you hear some steps. A wild ferocious orc appears!")
     time.sleep(2)
     strength = input("Choose your strength (1-5): ")
@@ -46,7 +46,7 @@ def orc_battle():
 
 
 def hooded_man():
-    # Center path - riddles from a mysterious hooded man
+    # The center path will have a mysterious hooded man that will give the player two riddles 
     print("You enter in a strange area with a strange hooded man")
     time.sleep(2)
     print("His appearance makes you feel strange")
@@ -78,7 +78,7 @@ def hooded_man():
 
 
 def dragon_stealth():
-    # Right path - sneak past a sleeping dragon
+    # In the right path section, the player will encounter a dragon and will have to sneak through this section in order to get the treasure 
     print("This route leads to a vast area in which....there is a dragon sleeping!")
     time.sleep(2)
     stealth = input("How sneaky are you going to move? (1-5): ")
