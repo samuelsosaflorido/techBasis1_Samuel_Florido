@@ -36,6 +36,32 @@ def check_strength(strength):
         return "Not enough strength! You have been slayed! " + LOSING_MESSAGE
 
 
+def check_stealth(stealth):
+    # Takes stealth as argument and returns the result message
+    if stealth == "5":
+        return "You sneaked past the dragon! " + WINNING_MESSAGE
+    elif stealth == "4":
+        return "You go through without much noise. " + WINNING_MESSAGE
+    elif stealth == "3":
+        return "You make some noise but the dragon doesn't wake up. " + WINNING_MESSAGE
+    else:
+        return "The dragon awakens. " + LOSING_MESSAGE
+
+
+def check_riddles(answer1, answer2):
+    # Takes both answers as arguments and returns the result message
+    if answer1 == RIDDLE1_ANSWER:
+        print("Correct! You still got one more riddle left")
+        time.sleep(2)
+        print("Riddle 2: What can fill a room but takes no space?")
+        if answer2 == RIDDLE2_ANSWER:
+            return "Correct. The man nods. You may now collect the treasure. " + WINNING_MESSAGE
+        else:
+            return "Wrong answer. I am afraid you are not worthy. " + LOSING_MESSAGE
+    else:
+        return "Wrong answer. " + LOSING_MESSAGE
+
+
 def orc_battle():
     # In the left path the player encounters a wild orc
     print("During your adventure in this silent cave you hear some steps. A wild ferocious orc appears!")
