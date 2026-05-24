@@ -114,14 +114,12 @@ def use(item_name):
             elif item["name"] == "newspaper":
                 print("You open the newspaper.")
                 time.sleep(2)
-                print("You start examining the object.")
-                time.sleep(2)
                 print("You start feeling dazed and confused.")
 
             elif item["name"] == "journal":
                 print("You open the journal.")
                 time.sleep(2)
-                print("You start examining the object. What you see is extremely painful.")
+                print("What you see is extremely painful.")
 
             elif item["name"] == "photo":
                 print("You bring the photo closer to your face.")
@@ -132,8 +130,6 @@ def use(item_name):
 
             elif item["name"] == "keycard":
                 print("You watch the keycard closely.")
-                time.sleep(2)
-                print("You start examining the object.")
                 time.sleep(2)
                 print("Now you start to remember.")
 
@@ -172,44 +168,58 @@ def examine(item_name):
             if item["name"] == "note":
                 print("Then a voice suddenly appears. You hear it in every part of your body. You scream. Nobody hears you.")
                 time.sleep(3)
-                print("The voice: 'You cannot escape from what happened'")
+                print("You cannot escape the truth")
+                time.sleep(3)
+                print("What...? What is going on? Is anybody here?")
+                time.sleep(3)
+                print("Of course not. I am stupid. I am all alone here")
 
             elif item["name"] == "newspaper":
                 time.sleep(3)
-                print("You start reading it. You still feel confused. You say loud: 'What is this? Why am I here?. What is all this?'")
+                print("You start reading it")
                 time.sleep(3)
                 print("The voice: 'Are you sure you know who you truly are? What are you?'")
                 time.sleep(3)
-                print("You feel sick: 'This is too much. I cannot recall..'")
+                print("What is that voice again. Am I going insane? Is this actually happening? Reveal yourself")
+                time.sleep(3)
+                print("You receive no answer")
 
             elif item["name"] == "journal":
                 time.sleep(3)
                 print("The experiment is well-detailed. You start realizing the horror behind all this...")
                 time.sleep(3)
-                print("The voice: 'You have to pay the consequences of your decisions.'")
+                print("Pay the consequences of your actions")
                 time.sleep(3)
-                print("No...No....")
+                print("Who the fuck? Oh...of course, I am alone here. This is not real. This has to be part of my imagination")
 
             elif item["name"] == "photo":
-                time.sleep(2)
-                print("You examine the photo. Memories start to appear.")
-                time.sleep(2)
-                print("The voice: 'Do you remember their names? Of course you do. You used to love them.'")
-                time.sleep(2)
-                print("Is any of this real or is it happening inside my head?")
-                time.sleep(2)
-                print("You start to feel a sense of dread like never before.")
-
+                time.sleep(3)
+                print("Memories start to appear.")
+                time.sleep(3)
+                print("Do you remember their names? Of course you do. You used to love them.'")
+                time.sleep(3)
+                print("ENOUGH OF THIS! I...I cannot handle this. What is going on? Of course I do remember them but somehow I have forgotten. Why? What is going on? Please...somebody, help me")
+                
             elif item["name"] == "keycard":
-                time.sleep(2)
+                time.sleep(3)
                 print("Your hands are shaking while holding the keycard.")
-                time.sleep(2)
+                time.sleep(3)
                 print("No! This cannot be me! This is not me!")
-                time.sleep(2)
-                print("The voice says: 'You are a monster. You do not deserve to live. You murdered them'")
-                time.sleep(2)
-                print("You start crying alone in that room. Then you scream: 'I did not...No....Did i? Oh no, I am so sorry. I am so sorry for everything that I caused. I deserve to die'")
-                time.sleep(2)
+                time.sleep(3)
+                print("You are a monster. You do not deserve to live. You murdered them'")
+                time.sleep(3)
+                print("You cannot hold it anymore")
+                time.sleep(3)
+                print("You fell on your knees and start crying and screaming")
+                time.sleep(3)
+                print("Something is driving you crazy. Something terrible that is within you...")
+                time.sleep(3)
+                print("You start hearing a strange mellow melody")
+                time.sleep(3)
+                print("You don't even want to know whether that music is real or not. You know what happened")
+                time.sleep(3)
+                print("I am a monster. I deserve to die. I should have not been born! I am so sorry...")
+                
                 if not key_found:
                     key_found = True
                     key_item = {"name": "key", "type": "key",
@@ -236,17 +246,22 @@ def ending():
     time.sleep(2)
     print("The door opens.")
     time.sleep(2)
-    print("Beyond it: you see a strong light but you cannot see what's beyond it.")
+    print("Then...there's a strong light but you cannot see what's beyond it.")
     time.sleep(2)
     print("\nThe voice laughs. Slowly. Quietly.")
     time.sleep(3)
-    print("'You are a mere monster. You have no freedom. You are bounded to your past'")
+    print("You do not deserve to live. You are a monster. Pay the price for your actions")
     time.sleep(3)
-    print("You start controlling your impulses and emotions. Then you ask yourself: 'Will I manage to move on? Will I manage to forgive myself?'")
+    print("Is there any other way? Or will I be forever cursed? I cannot live like this now that I know what I have done")
     time.sleep(3)
     print("The voice does not say anything but you know it's still there.")
     time.sleep(3)
-    print("You then say: 'I need to figure this out.'")
+    print("Is it possible for me to forgive myself? I accept everything. I will carry this burden with me. I will never forget...")
+    time.sleep(3)
+    print("The trial has just begun")
+    time.sleep(3)
+    print("You then have the feeling that whoever or whatever is watching you is smiling")
+    
     time.sleep(3)
     print("\n" + "=" * 40)
     print("   MEMORIES.")
