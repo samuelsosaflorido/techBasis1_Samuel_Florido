@@ -71,7 +71,7 @@ When the player acquires the keycard the story is revealed along with the emotio
 
 However, I know there are maybe major problems with the narrative and that there are also a lot of aspects to improve, in order to make it more coherent but it is a small experiment. I decided not only to create a small inventory game but also added a lot of narrative elements, using aspects that we have learned before. Using time.sleep for the pacing and prints for the player to see dialogues and the reaction of the character and this shady companion, that is The Voice, to make it more engaging. It was not mandatory for the assignment but I tried to combine this practice of creating libraries and dictionaries with storytelling elements. It took me a lot of work to create the final results. I had to rewrite the code over an over, ask Claude for further feedback and areas to improve. Asked questions in terms of understanding all the possible aspects that are present in the code. 
 
-Even though it is not perfect and needs a lot of refinement, I am very happy with its result and also inspires me for future storytelling projects within the Game sector :)
+Even though it is not perfect and needs a lot of refinement, I am very happy with its result and also inspires me for future storytelling projects within the gaming sector :)
                                               
 
 
