@@ -50,6 +50,20 @@ def show_room_items():
 
 
 def pick_up(item_name):
+    # items must be picked up in order
+    if item_name == "newspaper" and not any(i["name"] == "note" for i in inventory):
+        print("Something stops you. Maybe you should look at the note first.")
+        return
+    if item_name == "journal" and not any(i["name"] == "newspaper" for i in inventory):
+        print("Something stops you. Maybe you should look at the newspaper first.")
+        return
+    if item_name == "photo" and not any(i["name"] == "journal" for i in inventory):
+        print("Something stops you. Maybe you should look at the journal first.")
+        return
+    if item_name == "keycard" and not any(i["name"] == "photo" for i in inventory):
+        print("Something stops you. Maybe you should look at the photo first.")
+        return
+
     for item in items_in_room:
         if item["name"] == item_name:
             if len(inventory) >= MAX_INVENTORY:
