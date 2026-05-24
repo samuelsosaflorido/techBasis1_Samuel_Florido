@@ -181,7 +181,7 @@ def examine(item_name):
 
             return
 
-    print(f"You don't see '{item_name}' here or in your pockets.")
+    print(f"You need to pick up the {item_name} first.")
 
 
 def ending():
