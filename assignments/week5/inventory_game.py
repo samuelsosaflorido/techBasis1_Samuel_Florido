@@ -234,9 +234,7 @@ def game_loop():
     time.sleep(2)
     print("\nType 'help' for commands. Type 'look' to start.\n")
 
-    while True:  # fixed: was missing
-        if game_ended:
-            break
+    while not game_ended:
 
         command = input("\n> ").strip().lower()
 
@@ -261,4 +259,3 @@ def game_loop():
 
 if __name__ == "__main__":
     game_loop()
-    
