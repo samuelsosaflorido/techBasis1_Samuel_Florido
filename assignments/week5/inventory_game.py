@@ -180,7 +180,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("The voice: 'Are you sure you know who you truly are? What are you?'")
                 time.sleep(3)
-                print("What is that voice again. Am I going insane? Is this actually happening? Reveal yourself")
+                print("What is that voice again. Am I going insane? Is this actually happening?")
                 time.sleep(3)
                 print("You receive no answer")
 
@@ -198,7 +198,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("Do you remember their names? Of course you do. You used to love them.'")
                 time.sleep(3)
-                print("ENOUGH OF THIS! I...I cannot handle this. What is going on? What is going on? Please...somebody, help me")
+                print("ENOUGH OF THIS! I...I cannot handle this. Please...somebody, help me")
                 
             elif item["name"] == "keycard":
                 time.sleep(3)
@@ -252,7 +252,7 @@ def ending():
     time.sleep(3)
     print("You are a monster. Pay the price for your actions")
     time.sleep(3)
-    print("Is there any other way? Or will I be forever cursed? I cannot live like this now that I know what I have done")
+    print("Is there any other way? I cannot live like this now that I know what I have done")
     time.sleep(3)
     print("The voice does not say anything but you know it's still there.")
     time.sleep(3)
