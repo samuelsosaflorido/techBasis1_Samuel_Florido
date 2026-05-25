@@ -190,7 +190,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("Pay the consequences of your actions")
                 time.sleep(3)
-                print("Who the fuck? Oh...of course, I am alone here. This is not real. This has to be part of my imagination")
+                print("Who the...? Oh...of course, I am alone here. This is not real. This has to be part of my imagination")
 
             elif item["name"] == "photo":
                 time.sleep(3)
