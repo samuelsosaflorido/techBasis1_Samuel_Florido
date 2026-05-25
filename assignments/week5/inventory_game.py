@@ -16,7 +16,7 @@ items_in_room = [
     {"name": "journal", "type": "clue", "uses": 1,
      "description": "A research journal from the lab team. Subject: XL34. You read the entire of it and something makes you feel strange. The last two lines says the following: 'We may have gone too far. May god be merciful and forgive us'"},
     {"name": "photo", "type": "clue", "uses": 1,
-     "description": "A photograph. You start to shiver. You recognize yourself in the photo. Surrounded by familiar people. A woman, two children...Everyone is smiling. You are not. You start sobbing but you control yourself"},
+     "description": "A photograph. You start to shiver. You recognize yourself in the photo. Surrounded by familiar people. Everyone is smiling. You are not. You start sobbing but you control yourself"},
     {"name": "keycard", "type": "clue", "uses": 1,
      "description": "An ID card with your name. Under ROLE it says: XL34. Under STATUS: Subject of experimentation. DO NOT RELEASE UNDER ANY CIRCUMSTANCES."},
 ]
@@ -198,7 +198,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("Do you remember their names? Of course you do. You used to love them.'")
                 time.sleep(3)
-                print("ENOUGH OF THIS! I...I cannot handle this. What is going on? Of course I do remember them but somehow I have forgotten. Why? What is going on? Please...somebody, help me")
+                print("ENOUGH OF THIS! I...I cannot handle this. What is going on? What is going on? Please...somebody, help me")
                 
             elif item["name"] == "keycard":
                 time.sleep(3)
@@ -206,7 +206,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("No! This cannot be me! This is not me!")
                 time.sleep(3)
-                print("You are a monster. You do not deserve to live. You murdered them'")
+                print("You are a monster. You are cursed")
                 time.sleep(3)
                 print("You cannot hold it anymore")
                 time.sleep(3)
@@ -218,7 +218,7 @@ def examine(item_name):
                 time.sleep(3)
                 print("You don't even want to know whether that music is real or not. You know what happened")
                 time.sleep(3)
-                print("I am a monster. I deserve to die. I should have not been born! I am so sorry...")
+                print("I am a monster. I am so sorry...")
                 
                 if not key_found:
                     key_found = True
@@ -250,7 +250,7 @@ def ending():
     time.sleep(2)
     print("\nThe voice laughs. Slowly. Quietly.")
     time.sleep(3)
-    print("You do not deserve to live. You are a monster. Pay the price for your actions")
+    print("You are a monster. Pay the price for your actions")
     time.sleep(3)
     print("Is there any other way? Or will I be forever cursed? I cannot live like this now that I know what I have done")
     time.sleep(3)
