@@ -244,18 +244,11 @@ def check_stealth(stealth):
 
 def check_riddles(answer1, answer2):
     # Takes both answers as arguments and returns the result message
-    if answer1 == RIDDLE1_ANSWER:
-        print("Correct! You still got one more riddle left")
-        time.sleep(2)
-        print("Riddle 2: What can fill a room but takes no space?")
-        if answer2 == RIDDLE2_ANSWER:
-            return "Correct. The man nods. You may now collect the treasure. " + WINNING_MESSAGE, True
-        else:
-            return "Wrong answer. I am afraid you are not worthy to collect the treasure. " + LOSING_MESSAGE, False
+    if answer1 == RIDDLE1_ANSWER and answer2 == RIDDLE2_ANSWER:
+        return "Correct. The man nods. You may now collect the treasure. " + WINNING_MESSAGE, True
     else:
-        return "Wrong answer. " + LOSING_MESSAGE, False
-
-
+        return "Wrong answer. I am afraid you are not worthy to collect the treasure. " + LOSING_MESSAGE, False
+  
 def hooded_man():
     # The center path will have a mysterious hooded man that will give the player two riddles
     print("You enter in a strange area with a strange hooded man")
@@ -277,17 +270,19 @@ def hooded_man():
     answer1 = input("Your answer: ").strip().lower()
     answer2 = ""
     if answer1 == RIDDLE1_ANSWER:
+        print("Correct! You still got one more riddle left")
         time.sleep(2)
         print("Riddle 2: What can fill a room but takes no space?")
         time.sleep(2)
         answer2 = input("Your answer: ").strip().lower()
+    else:
+        print("Wrong answer. " + LOSING_MESSAGE)
+        return 0, "Loss"
     result, won = check_riddles(answer1, answer2)
     print(result)
     score = 100 if won else 0
     outcome = "Win" if won else "Loss"
     return score, outcome
-    
-
 
 def dragon_stealth():
     # In the right path section, the player will encounter a dragon and will have to sneak through in order to get the treasure
