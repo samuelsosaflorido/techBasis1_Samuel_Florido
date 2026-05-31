@@ -278,12 +278,15 @@ def hooded_man():
     answer2 = ""
     if answer1 == RIDDLE1_ANSWER:
         time.sleep(2)
+        print("Riddle 2: What can fill a room but takes no space?")
+        time.sleep(2)
         answer2 = input("Your answer: ").strip().lower()
     result, won = check_riddles(answer1, answer2)
     print(result)
     score = 100 if won else 0
     outcome = "Win" if won else "Loss"
     return score, outcome
+    
 
 
 def dragon_stealth():
