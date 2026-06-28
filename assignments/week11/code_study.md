@@ -1,0 +1,43 @@
+Assignment 11: code study 
+1. Introduction 
+In this section I will talk about the code that I have chosen to study and understand. I decided to find source material for the escape room puzzle game project that we are developing for Tech Basics 1, so I can get a better understanding on how to structure the entire code and to develop the different functions for the game to function 
+I managed to find this game called: "Jailbreak", a game developed using Pygame in Python. I found this game pretty inspiring in terms of getting an idea on how to design and structure the different rooms, what type of items can you find and, particularly, I found this repository pretty interesting (and also challenging) to understand but I managed to learn a lot throughout the process of analyzing and interpreting the code. Since we are also developing a prison game, I thought that this repository could give us also ideas for the final project and maybe some hints on how to structure our own code. Maybe not everything will be useful but at least can provide us ideas to further develop our gam
+This game contains both problem and puzzle solving system along with a very simple click-and-find game (as said in the repository, link will be provided down below). This feature is not intended for our project but it can give us some ideas on how to design the different rooms on both programming and visual perspective, which I found really interesting. The game contains a lot of pyfiles but I will mainly focus on one of them, in order to comment it and provide the corresponing analysis 
+You can find the link here: https://github.com/BilalM04/Jailbreak 
+
+2. Structure of the game and the main elements of the selected code 
+This repository contains couplee of py files in which we can see that it follows a clear structure that is interconnected with each other. 
+It contains either the hallways, cell fronts or back, a file dedicated to the player functions, plus a saferoom area and security room. In this sense, the different rooms are interconnected and shows how the player needs to collect these items and creates a very interactive environment 
+For this assignment I have chosen one of the rooms as the code provides a lot of useful information about the structure and how the functions are constructed. Therefore, I have chosen the file cell_font.py. 
+
+The code begins with imports pygame and other elements, such as the player functions, the cell and the drawing text element. Sice it's a one click escape room game makes much more sense and allows this interactivty of the player within the environment
+The game is structured in four main functions, returning the correspoding strings implying what the next screen would be like and also adding the different visuals and actions throughout the elements that interact within it.
+Each of the functions in this file represents one of the screen and it is programme in a way thatt ddraws everything, processing the different players inputs and returning the strings that tells the main loops which screen should be shown next. Most of the game mechanic is made by the navigation itself with the interaction of the player with the visual elements and the corresponding feedback. There is also a main loop running that holds the variables with the current screen name and it calls the function with every frame. 
+
+To show this in a better way I have selected one of the main functions that also highlights this processs. I have chosen the function zoom_lock which contains in a clear way an organization of the libraries of both screen, inventory and status. This also displays a view of the cell door and its main lock, acting like an interactive screen where the player can try unlocking the door and escaping. For this, the player needs the key and this can be obtained throughout interacting with the entire environment. The main inputs and oputs are:
+The main input: 
+a) screen: the pygame surface that shows where everything is drawn
+b) inv: the player's inventory object. It also has inv.two which represens whether the player has the key or not
+c) the status: the object manages sound and has a lot of sound click effects 
+
+The main outputs: 
+a) zoom_lock: keeps the screen without any change
+b) cell_front_screen: goes back to the cell followng the fact that the player has clicked ut of the zoom
+c) hallway_screen: this allows to escape the cell. 
+
+The code works according to what the player does within the game. The screen first is fille by white but then there is a version f the cell that starts to develop. Also, the different screens are drawn using height and width and being consistent with the game visuals objectives when the player tries to achieve specific objects to escape or to solve the different puzzles
+Following this, the game also use function loops which are tied to the different pygame events. This can be seen either by going out of the zoom, or acwqquiring the lock with the key and the sound buttm. These loops allows the game to flow naturally and to give the sense of how the player can engage within the environment and what different types of objects can be obtained and the corresponding outcomes. 
+There is also an interesting feature within the code that introduce the mouse clicks and the different results that can be obtained. This can be particularly interesting as for this function, the For loops are crucial and also allows to take the main status, and showing how each click can lead or show different screens, which I think it's also interesting to see how this is developed and also how the drawing code is perfectly insert within the genral structure of the code, either the loop or the function itself, allowing to have a clear and clean vision of what the author of this code di
+Also this function checks if the player has the key as we can see here clearly: 
+
+"if inv.two == False:
+        draw_text("I need to find a key.", text_font, (255,255,255), screen, 500, 550)"
+
+  Furthermore, the function loops related to the events allows even the player close the window, terminating the program. Or if the player uses the mouse button down or depending on where does it click, it can either go back to the cell front screen, to the hallway screen or it allows the player to turn off and on the sound options. 
+
+3. What have I learned so far?
+Studying this code allowed me to understand how to develop a clear and well-structured code. Even though all of its features may be not entirely related to our project, still offers intereting details on how to create an interesting interactive visual experience. Even though we are going to use pixel art, the way the code is structured can show different ways of organizing the content and the values that the program will later on interpret and produce. Also, the design of the environment and how the puzzles and the format are inserted within the code, maybe can give us further ideas to develop our project. Nevertheless, understanding this was challenging but not impossible as it follows a clear structure on what is intended and to see the way each part is interacting with all the functions within the code can also be somewhat challenging, particularly to undertand how to connect eaach choice with the clicks and sounds.
+Certain narrative elements can also be seen providing the player with more context on the objectives (such as finding the keys) and maybe can also add decision-making elements that we could add within our game (if it's not already too much, this is only a suggestion).
+However, the mechanic itself may not be entirely useful for our project but I think it also provides certain design concepts that could be taken into consideration when developing the game and even though we are going to use pixel art, it can also give ideas, inspiration and influence the way we may conceive the connection between the areas, its structure and also how to develop an interesting game experience where problem solving and puzzles are crucial in order to escape the place. Doing the research has also been pretty much interesting as I had to look fo different examples, github repositories in order to find an exmaple to take into consideration when the time comes to write down the code. It's not that I am going to take 100% of this material but can guide me when it comes to program my parts or to reflect on how do I want certain areas and to visualize them when it comes to create the code. 
+
+
